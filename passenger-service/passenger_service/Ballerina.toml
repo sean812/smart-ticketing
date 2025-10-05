@@ -2,7 +2,17 @@
 org = "sean"
 name = "passenger_service"
 version = "0.1.0"
-distribution = "2201.12.9"
+distribution = "2201.9.0" # change if your bal version differs
 
 [build-options]
 observabilityIncluded = true
+
+[[dependency]]
+org = "ballerinax"
+name = "kafka"
+version = "3.4.0"
+
+[[dependency]]
+org = "ballerinax"
+name = "mongodb"
+version = "3.4.0"

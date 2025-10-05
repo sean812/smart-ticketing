@@ -1,0 +1,8 @@
+[kafka]
+bootstrapServers = "localhost:9092"
+topic = "passenger.events"
+
+[mongodb]
+url = "mongodb://localhost:27017"
+database = "smart_ticketing"
+collection = "passengers"
